@@ -7,7 +7,7 @@ body{
 	margin: 1em;
 	background-color: black;
 	color: whitesmoke;
-	font-size: 5rem;
+	font-size: 3rem;
 	overflow: hidden;
 
 	/* Background */
@@ -17,7 +17,7 @@ body{
 	background-size: cover;
 
 	/* Animation */
-	transition: transform 3s;
+	transition: transform 2s;
 
 	/* ✅ Rubik font applied */
 	
