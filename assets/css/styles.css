@@ -1,11 +1,3 @@
-/* styles.css */
-
-.rubik-<uniquifier> {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 html{
 	width:100%;
 	height:100%;
@@ -14,44 +6,40 @@ html{
 body{
 	margin: 1em;
 	background-color: black;
-	color:whitesmoke;
+	color: whitesmoke;
 	font-size: 5rem;
 	overflow: hidden;
+
+	/* Background */
 	background: black url("../img/hawaii.gif");
-	/*background-image: url("../img/flames.gif"); <- this is what was used in class*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	transition-property: transform;
-	transition-duration: 3s;
+
+	/* Animation */
+	transition: transform 3s;
+
+	/* ✅ Rubik font applied */
+	font-family: "Rubik", sans-serif;
 }
 
 .grid-container{
 	display: grid; 
-	/*grid-template-columns: 1fr 1fr 1fr;*/ 
 	grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
 	gap: 2rem;
 	margin: 10% 4rem 0 4rem;
 }
 
 div {
-	transition-property: transform;
-	transition-duration: 3s;
+	transition: transform 3s;
 }
 
-	.last {
-		
-		padding-bottom: 2rem;
-		border-bottom: 2px solid rgb(220,200,180);
-	}
-/*
-.last:hover {
-	animation-name: growAndGlow;
-		animation-duration: 3s;
+.last {
+	padding-bottom: 2rem;
+	border-bottom: 2px solid rgb(220,200,180);
 }
-*/
 
-
+/* Optional animation if you want to reuse it */
 @keyframes growAndGlow {
 	from {
 		color: whitesmoke;
