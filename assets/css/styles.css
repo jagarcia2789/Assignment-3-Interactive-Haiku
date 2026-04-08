@@ -35,8 +35,13 @@ div {
 }
 
 .last {
-	padding-bottom: 2rem;
-	border-bottom: 2px solid rgb(220,200,180);
+	padding-bottom: 0.5rem; /* smaller now since SVG handles spacing */
+}
+
+.last svg {
+	display: block;
+	width: 100%;
+	height: 20px;
 }
 
 /* Optional animation */
