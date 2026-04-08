@@ -19,11 +19,8 @@ body{
 	/* Animation */
 	transition: transform 2s;
 
-	/* ✅ Rubik font applied */
-	
-  font-family: "Rubik", sans-serif;
-
-
+	/* ✅ Correct font usage */
+	font-family: "Rubik", sans-serif;
 }
 
 .grid-container{
@@ -42,7 +39,7 @@ div {
 	border-bottom: 2px solid rgb(220,200,180);
 }
 
-/* Optional animation if you want to reuse it */
+/* Optional animation */
 @keyframes growAndGlow {
 	from {
 		color: whitesmoke;
