@@ -1,5 +1,11 @@
 /* styles.css */
 
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 html{
 	width:100%;
 	height:100%;
