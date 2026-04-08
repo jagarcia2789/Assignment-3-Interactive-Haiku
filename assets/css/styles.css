@@ -20,7 +20,13 @@ body{
 	transition: transform 3s;
 
 	/* ✅ Rubik font applied */
-	font-family: "Rubik", sans-serif;
+	
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 }
 
 .grid-container{
